@@ -5,7 +5,7 @@
 
 void HugeInt::digitToVector(std::string str) {
   if (str.empty())
-    std::cerr << "Empty string is now allowed" << std::endl;
+    std::cerr << "Empty string is not allowed" << std::endl;
   for (auto &ch : str) {
     if (isdigit(ch)) {
       lhs.push_back(ch - '0');
@@ -98,7 +98,6 @@ HugeInt::subHugeInts(const std::vector<int16_t> &rhs) const {
   if (lhs >= rhs) {
     large = lhs;
     small = rhs;
-
   } else {
     large = rhs;
     small = lhs;
