@@ -1,0 +1,3 @@
+/home/narek-pc/Documents/bigNumber/build/CMakeFiles/rebuild_cache.dir
+/home/narek-pc/Documents/bigNumber/build/CMakeFiles/edit_cache.dir
+/home/narek-pc/Documents/bigNumber/build/CMakeFiles/hugeint.dir

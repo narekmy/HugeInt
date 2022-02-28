@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/hugeInt.h
+algorithm
+-
+cctype
+-
+iostream
+-
+string
+-
+vector
+-
+
+/home/narek-pc/Documents/bigNumber/driver/HugeIntTest.cpp
+hugeInt.h
+/home/narek-pc/Documents/bigNumber/driver/hugeInt.h
+
+/home/narek-pc/Documents/bigNumber/lib/HugeInt.cpp
+hugeInt.h
+/home/narek-pc/Documents/bigNumber/lib/hugeInt.h
+
